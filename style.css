@@ -1,11 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
 body {
   width: 100%;
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr 0.25fr;
+  font-family: "Quicksand", sans-serif;
 }
 
 .sidebar {
   grid-area: 1 / 1 / 3 / 2;
+  background-color: rgb(77, 172, 255);
+  color: white;
+}
+
+li img {
+  height: 1rem;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.logo {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.8rem;
+}
+
+.top-list {
+  margin: 40px 0px;
+}
+
+ul {
+  padding-left: 10px;
 }
