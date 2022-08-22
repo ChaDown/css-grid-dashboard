@@ -67,3 +67,47 @@ ul {
 .search-logo {
   padding-left: 20px;
 }
+
+.bottom-header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 3fr;
+}
+
+.nav-list {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-list ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 10px;
+}
+
+.nav-list ul li {
+  margin: 0px 10px;
+  background-color: rgb(77, 172, 255);
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+
+.bottom-header img {
+  height: 80px;
+  width: 80px;
+  margin-left: 20px;
+}
+
+.welcome-msg {
+  margin-top: 20px;
+}
+
+.welcome-msg p {
+  margin: 5px 0px;
+  font-weight: 900;
+}
+
+p:first-child {
+  font-size: 0.7rem;
+}
